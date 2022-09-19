@@ -1,16 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.main')
+@section('title', 'home')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
 
-</head>
+@section('main-content')
 
-<body>
+    {{-- <ul>
+        @foreach ($movies as $movie)
+            <li> <img src="{{ $movie->cover }}" alt="{{ $movie->title }}">
+            <li> {{ $movie->original_title }}</li>
+            <li> {{ $movie->date }}</li>
+        @endforeach
+    </ul> --}}
 
-</body>
-
-</html>
+@endsection
