@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Comics')
+@section('title', 'Lista Film')
 
 @section('main-content')
     <div class="container">
