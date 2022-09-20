@@ -12,9 +12,9 @@
                         {{ $movie->title }}
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Titolo originale:{{ $movie->original_title }}</li>
+                        <li class="list-group-item">Titolo originale: {{ $movie->original_title }}</li>
                         <li class="list-group-item">Paese: {{ $movie->nationality }}</li>
-                        <li class="list-group-item">Data di uscita:{{ $movie->date }}</li>
+                        <li class="list-group-item">Data di uscita: {{ $movie->date }}</li>
                     </ul>
                 </div>
             @endforeach
